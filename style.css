@@ -1,0 +1,111 @@
+.attribution { font-size: 18px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--Dark-blue);
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  background-color: var(--Pale-blue);
+  color: var(--Dark-blue);
+  font-size: 16px;
+}
+
+button {
+  border: 0;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Very-pale-blue);
+  border-radius: 6%;
+  width: 375px;
+  margin: 0 auto 1rem;
+}
+
+.container .main-img img{
+  width: 100%;
+  border-radius: 6% 6% 0 0;
+}
+
+.container h2 {
+  margin: 1.5rem;
+  font-weight: 900;
+}
+
+.description {
+  padding: 0 3.5rem;
+  text-align: center;
+  color: var(--Desaturated-blue);
+}
+
+.annualPlan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(230, 75%, 98%);
+}
+
+.annualPlan p {
+  padding: 0 2.1rem;
+  font-size: 14px;
+  color: var(--Desaturated-blue);
+}
+
+.annualPlan p span {
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+
+.annualPlan a {
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+
+.annualPlan a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%, 60%)
+}
+
+.paymentButton {
+  padding: 1rem 5rem;
+  background: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+}
+
+.paymentButton:hover {
+  background: hsl(245, 75%, 52%, 60%);
+}
+
+.cancelButton {
+  padding: 1rem 6.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--Desaturated-blue);
+}
+
+.cancelButton:hover {
+  color: var(--Dark-blue);
+}
