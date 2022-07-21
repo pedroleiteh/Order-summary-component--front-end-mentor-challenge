@@ -20,11 +20,12 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+<img src="component-overview.png">
 
 ### Links
 
 - Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://order-summary-pedroleite14.netlify.app/)
+- [live site URL here](https://order-summary-pedroleite14.netlify.app/)
 
 
 ### Built with
