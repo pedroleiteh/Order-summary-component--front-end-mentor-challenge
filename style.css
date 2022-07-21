@@ -39,7 +39,7 @@ button {
   background-color: var(--Very-pale-blue);
   border-radius: 6%;
   width: 375px;
-  margin: 0 auto 1rem;
+  margin: 2rem auto 1rem;
 }
 
 .container .main-img img{
